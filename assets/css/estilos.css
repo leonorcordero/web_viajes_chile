@@ -1,0 +1,55 @@
+.img-logo{
+    width: 50px;}
+
+    .carousel-item{
+        height: 100vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        background-size: cover;}
+
+
+.subirdiv{
+    z-index: 10;
+    padding-top: -15px;
+    left: 50px;
+    top: 100px;
+}
+
+body{
+    background-color: black;
+    
+}
+.cajita i{
+   font-size: 32px;
+   color: white;
+}
+   
+
+.cajita .banda_azul{
+    background-color: #0dcaf0;
+    height: 40px;
+   padding: 3px;
+   
+}
+
+.card{
+    border-radius: 3px;
+    background-color: #0dcaf0;
+    border-color: lightslategray;
+}
+
+.cardestilo img{
+    border-radius: 3px;
+    height: 150px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+hr{
+    color: lightgrey;
+}
