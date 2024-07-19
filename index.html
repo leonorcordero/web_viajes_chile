@@ -26,7 +26,7 @@
 
 <body>
     <!--Nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" data-bs-theme="dark" style="position: absolute;">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img class="img-logo" src="assets/img/viajes.svg" alt="viajesdechile">
@@ -58,7 +58,7 @@
 
     <!--Senccion 1 - Carusel-->
     <main>
-        <div class="subirdiv">
+        <div class="subirdiv pb-2">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -77,9 +77,10 @@
 
     <!--Senccion 2 Quienes somos-->
     <section>
-        <div class="container">
-            <h5 class="text-center pt-5 text-white">¿QUIÉNES SOMOS?</h5>
-            <hr>
+
+        <h5 class="text-center pt-5 text-white pb-2">¿QUIÉNES SOMOS?</h5>
+        <hr>
+        <div class="container pb-5">
             <div class="row pt-5">
                 <div class="col-4 cajita">
                     <div class="banda_azul text-center">
@@ -98,12 +99,12 @@
                         adipisicing elit. Unde ducimus recusandae culpa dolor quia rem ad, incidunt maxime animi beatae
                         voluptatum qui accusantium eligendi fugit iure aliquam error reiciendis alias!</p>
                     <div class="banda_azul text-center">
-                        <i class="fa-solid fa-plane "></i>
+                        <i class="fa-solid fa-mountain"></i></i>
                     </div>
                 </div>
                 <div class="col-4 cajita">
                     <div class="banda_azul text-center">
-                        <i class="fa-solid fa-plane "></i>
+                        <i class="fa-solid fa-route"></i>
                     </div>
                     <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae
                         velit quod corrupti corporis odit deleniti officia soluta aliquam id, dolores amet voluptatum
@@ -118,9 +119,10 @@
 
     <!--Senccion 3 DESTACADOS-->
     <section>
-        <div class="container">
-            <h5 class="text-center pt-5 text-white">DESTACADOS</h5>
-            <hr>
+
+        <h5 class="text-center pt-5 text-white pb-2">DESTACADOS</h5>
+        <hr>
+        <div class="container pt-2 pb-5">
             <div class="row">
                 <div class="col-3">
                     <div class="card cardestilo">
@@ -163,32 +165,49 @@
         </div>
     </section>
 
-    <!--sección-formulario-->
-    <h5 class="text-center pt-5 text-white">DESTACADOS</h5>
+    <!--Seccion 4 - FORMULARIO-->
+    <h5 class="text-center pt-4 pb-2 text-white">CONTACTO</h5>
     <hr>
-    <section id="contacto" class="container text-white">
-            <div class="row">
-                <form action="#" method="post">
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label fw-bold">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ej. Lalo Landa">
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label fw-bold">Asunto</label>
-                        <input type="email" class="form-control" id="email" placeholder="Ej. LaloLanda@gmail.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="mensaje" class="form-label fw-bold">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" rows="4"></textarea>
-                    </div>
-
-                </form>
+    <section id="contacto" class="container text-white pt-3 pb-5">
+        <div class="row">
+            <form action="#" method="post">
                 <div class="mb-3">
-                    <input class="btn btn-lg btn-outline-info" type="submit" value="enviar">
+                    <label for="nombre" class="form-label fw-bold">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ej. Lalo Landa">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold">Asunto</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ej. LaloLanda@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label fw-bold">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4"></textarea>
+                </div>
+
+            </form>
+            <div class="mb-3">
+                <input class="btn btn-lg btn-outline-info" type="submit" value="enviar">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Seccion 5 - FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <span class="text-white">VIAJES CHILE</span>
+                </div>
+                <div class="text-white col-6">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

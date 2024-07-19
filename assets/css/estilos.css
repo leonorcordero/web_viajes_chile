@@ -53,3 +53,9 @@ body{
 hr{
     color: lightgrey;
 }
+
+footer{
+    background-color: #0dcaf0;
+    justify-content: center;
+    padding: 30px;
+}
