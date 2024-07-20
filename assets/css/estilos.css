@@ -1,48 +1,49 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
-.img-logo{
-    width: 50px;}
+.img-logo {
+    width: 50px;
+}
 
-    .carousel-item{
-        height: 100vh;
-        min-height: 300px;
-        background: no-repeat center center scroll;
-        background-size: cover;}
+.carousel-item {
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
 
 
-.subirdiv{
+.subirdiv {
     z-index: 10;
     padding-top: -15px;
     left: 50px;
     top: 100px;
 }
 
-body{
+body {
     background-color: black;
-    
-}
-.cajita i{
-   font-size: 32px;
-   color: white;
-}
-   
 
-.cajita .banda_azul{
+}
+
+.cajita i {
+    font-size: 32px;
+    color: white;
+}
+
+
+.cajita .banda_azul {
     background-color: #0dcaf0;
     height: 40px;
-   padding: 3px;
-   
+    padding: 3px;
+
 }
 
-.card{
+.card {
     border-radius: 3px;
     background-color: #0dcaf0;
     border-color: lightslategray;
 }
 
-.cardestilo img{
+.cardestilo img {
     border-radius: 3px;
     height: 150px;
     border-bottom-left-radius: 0%;
@@ -50,17 +51,72 @@ body{
 
 }
 
-.card-img-top{
+.card-img-top {
     width: 100%;
 }
 
-hr{
+hr {
     color: lightgrey;
 }
 
-footer{
+footer {
     background-color: #0dcaf0;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
+    font-weight: 300;
 }
 
+.letrasfooter {
+    font-size: 30px;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.botonenviar {
+    color: white;
+    background-color: #0dcaf0;
+    border-color: white;
+
+}
+
+.botonenviar:hover,
+.botonenviar:active,
+.botonenviar:focus {
+    background-color: #0a9dbb;
+}
+
+.iconosredes i {
+    font-size: 30px;
+    padding-left: 5px;
+    color: white;
+}
+
+/* Definición de estilos para pantallas sm y xs*/
+@media(max-width:576px) {
+    .cardestilo {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    #Contacto{
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+}
+
+/* Definición de estilo para pantalla md y superior*/
+@media(min-width:768px) {
+    .carousel-item {
+        height: 100vh;
+    }
+
+    
+
+
+}
