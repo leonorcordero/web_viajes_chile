@@ -44,13 +44,13 @@
                         <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#quienessomos">Quienes somos</a>
+                        <a class="nav-link" href="#quienessomos">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#destacados">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#contacto">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -73,6 +73,14 @@
                         <img class="d-block w-100" src="assets/img/carousel3.jpg" alt="Third slide">
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
             </div>
         </div>
     </main>
@@ -129,7 +137,8 @@
                 <div class="col-lg-3 col-sm-6 mt-2">
                     <div class="card cardestilo">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body text-white">
+                            <h6>Lorem ipsum dolor sit amet.</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                         </div>
@@ -138,7 +147,8 @@
                 <div class="col-lg-3 col-sm-6 mt-2">
                     <div class="card cardestilo">
                         <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body text-white">
+                            <h6>Lorem ipsum dolor sit amet.</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                         </div>
@@ -147,7 +157,8 @@
                 <div class="col-lg-3 col-sm-6 mt-2">
                     <div class="card cardestilo">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body text-white">
+                            <h6>Lorem ipsum dolor sit amet.</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                         </div>
@@ -156,7 +167,8 @@
                 <div class="col-lg-3 col-sm-6 mt-2">
                     <div class="card cardestilo">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body text-white">
+                            <h6>Lorem ipsum dolor sit amet.</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                         </div>
@@ -174,21 +186,21 @@
         <div class="row">
             <form action="#" method="post">
                 <div class="mb-3">
-                    <label for="nombre" class="form-label fw-bold">Nombre <i class="fa-regular fa-circle-question" data-bs-toggle="tooltip" data-bs-title="The last tip!"></i></label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Introduzca aquí su nombre">
+                    <label for="nombre" class="form-label fw-bold">Nombre <i class="fa-regular fa-circle-question" data-bs-toggle="tooltip" data-bs-title="Introduzca aquí su nombre"></i></label>
+                    <input type="text" class="form-control" id="nombre">
                 </div>
                 <div class="mb-3">
-                    <label for="email" class="form-label fw-bold">Asunto <i class="fa-regular fa-circle-question"></i></label>
-                    <input type="email" class="form-control" id="email" placeholder="Introduzca el asunto de su mensaje">
+                    <label for="email" class="form-label fw-bold">Asunto <i class="fa-regular fa-circle-question" data-bs-toggle="tooltip" data-bs-title="Introduzca aquí el asunto de su mensaje"></i></label>
+                    <input type="email" class="form-control" id="email">
                 </div>
                 <div class="mb-3">
-                    <label for="mensaje" class="form-label fw-bold">Mensaje <i class="fa-regular fa-circle-question"></i></label>
+                    <label for="mensaje" class="form-label fw-bold">Mensaje <i class="fa-regular fa-circle-question" data-bs-toggle="tooltip" data-bs-title="Escriba aquí su mensaje"></i></label>
                     <textarea class="form-control" id="mensaje" rows="4"></textarea>
                 </div>
                 
             </form>
             <div class="mb-3">
-                <input class="btn btn-lg btn-outline-info" type="submit" value="enviar">
+                <input class="btn btn-primary btn-sm botonenviar" type="submit" value="enviar" data-bs-toggle="tooltip" data-bs-title="Haga click para enviar su mensaje">
             </div>
         </div>
         </div>
@@ -199,13 +211,13 @@
         <div class="container">
             <div class="row">
                 <div class="text-white col-6" style="text-align: center;">
-                    <span class="text-white">VIAJES CHILE</span>
+                    <span class="text-white letrasfooter">VIAJES CHILE</span>
                 </div>
-                <div class="text-white col-6" style="text-align: center;">
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-square-facebook"></i>
+                <div class="text-white col-6 iconosredes" style="text-align: center;">
+                   <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin "></i></a>
+                    <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
         </div>
